@@ -85,4 +85,8 @@ Results should look similar to this:
 }
 ```
 
+Running tests:
+
+`./vendor/bin/phpunit -c tests`
+
 Enjoy!
