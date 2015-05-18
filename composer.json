@@ -1,0 +1,24 @@
+{
+    "name": "magdkudama/scraper",
+    "description": "Console application that scraps a website",
+    "keywords": ["test", "scraper", "php"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Magd Kudama",
+            "email": "magdkudama@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "3.0.*@dev",
+        "gabrielelana/byte-units": "dev-master",
+        "fabpot/goutte": "2.0.*@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "mockery/mockery": "1.0.*@dev"
+    },
+    "autoload": {
+        "psr-4": { "MagdKudama\\Scraper\\": "src/MagdKudama/Scraper" }
+    }
+}
